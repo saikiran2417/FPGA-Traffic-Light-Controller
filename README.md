@@ -18,16 +18,16 @@ A hardware traffic light controller implemented as a Moore FSM in Verilog, synth
 ## Screenshots
 
 ### Vivado Block Design — ZYNQ PS + Processor System Reset + traffic_fsm RTL
-![Vivado Block Design](images/vivado_block_design.jpg)
+![Vivado Block Design](vivado_block_design.jpg)
 
 ### Verilog FSM Source Code
-![Verilog FSM](images/verilog_fsm_code.jpg)
+![Verilog FSM](verilog_fsm_code.jpg)
 
 ### XDC Constraints — Pin Mapping
-![XDC Constraints](images/xdc_constraints.jpg)
+![XDC Constraints](xdc_constraints.jpg)
 
 ### Jupyter Dashboard — Live State Visualization on PYNQ
-![Jupyter Dashboard](images/jupyter_dashboard.jpg)
+![Jupyter Dashboard](jupyter_dashboard.jpg)
 
 ---
 
@@ -130,12 +130,11 @@ FPGA-Traffic-Light-Controller/
 ├── SoC_Final.pdf
 ├── traffic_fsm.v
 ├── constraints.xdc
-├── traffic_light_dashboard.ipynb
-└── images/
-    ├── vivado_block_design.jpg
-    ├── verilog_fsm_code.jpg
-    ├── xdc_constraints.jpg
-    └── jupyter_dashboard.jpg
+├── Traffic_Light_Controller.ipynb
+├── vivado_block_design.jpg
+├── verilog_fsm_code.jpg
+├── xdc_constraints.jpg
+└── jupyter_dashboard.jpg
 ```
 
 ---
